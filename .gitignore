@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+.history/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local config files
+*.env
+.env.*
+
+# Token / credential / secrets files
+*service_account.json
+*credentials.json
+
+# Logs and debug
+*.log
+*.pid
+*.gz
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pip metadata
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test result/output files
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.nox/
+.pytest_cache/
+cover/
+
+# Pyre type checker
+.pyre/
+
+# Pytype
+.pytype/
+
+# Mypy
+.mypy_cache/
+
+# Pyright
+pyrightconfig.json
+
+# Vertex AI generated folders (if any)
+vertexai-logs/
